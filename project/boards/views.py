@@ -9,13 +9,6 @@ from .serializers.board import BoardSerializer
 from .serializers.createBoard import CreateBoard
 from .serializers.updateBoard import UpdateBoard
 
-# POST create board with cols ✅
-# GET Get boards with all details ✅
-# GET Get boards of user ✅
-# GET Get board with id ✅
-# PATCH Update Board ✅
-# DELETE delte Board
-
 
 @swagger_auto_schema()
 @api_view(["POST"])

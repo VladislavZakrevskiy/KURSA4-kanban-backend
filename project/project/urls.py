@@ -25,10 +25,14 @@ urlpatterns = [
     # My apps
     path("api/auth/", include("users.urls"), name="auth"),
     path("api/boards/", include("boards.urls"), name="boards"),
+    path("api/columns/", include("columns.urls"), name="columns"),
     # Doc
     path(
         "swagger/",
-        schema_view.with_ui("swagger", cache_timeout=0),
+        schema_view.with_ui(
+            "swagger",
+            cache_timeout=0,
+        ),
         name="schema-swagger-ui",
     ),
     path("redoc/", schema_view.with_ui("redoc", cache_timeout=0), name="schema-redoc"),
