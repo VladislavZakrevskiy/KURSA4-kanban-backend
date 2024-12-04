@@ -35,11 +35,13 @@ Kanban-приложение
 - Custom UI KIT
 - Async-storage
 - Drag'n'Drop
-By: Владислав Анатольевич Закревский
+
+```By: Владислав Анатольевич Закревский```
 
 Бэкенд: https://github.com/VladislavZakrevskiy/KURSA4-kanban-backend
 - Python
 - Django
 - Django Rest Framework
 - Postgres
-By: Владислав Анатольевич Закревский, Корочин Владислав Алексеевич, Зыков Владимир Алексеевич
+
+```By: Владислав Анатольевич Закревский, Корочин Владислав Алексеевич, Зыков Владимир Алексеевич```
