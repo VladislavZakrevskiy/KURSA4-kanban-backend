@@ -7,7 +7,7 @@ Kanban-приложение
 <table style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; align-items: end">
 	<tr>
 		<td>
-			<img src="./README/Zikov.jpg"/>
+			<img src="./README/Zykov.jpg"/>
 			<h4>Зыков Владимир Алексеевич</h4>
       <p>Backend Developer</p>
       <a href="https://github.com/Afekaaa">Github</a>
