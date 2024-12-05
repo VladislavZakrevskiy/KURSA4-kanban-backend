@@ -9,6 +9,5 @@ class CreateColumn(serializers.ModelSerializer):
         fields = ["id", "title", "description"]
 
     def create(self, validated_data):
-        print(validated_data)
         board = Board.objects.get(id=self.context["boardId"])
         return Column.objects.create(board=board, **validated_data)
