@@ -27,6 +27,7 @@ urlpatterns = [
     path("api/boards/", include("boards.urls"), name="boards"),
     path("api/columns/", include("columns.urls"), name="columns"),
     path("api/tasks/", include("tasks.urls"), name="tasks"),
+    path("api/subtasks/", include("subtasks.urls"), name="subtasks"),
     # Doc
     path(
         "swagger/",
