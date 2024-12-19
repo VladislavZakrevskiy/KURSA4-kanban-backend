@@ -10,7 +10,7 @@ SECRET_KEY = "django-insecure-!&8bee7&4!3q32f%)zk_9321l+r31o=@o*)j8-iv+-phczi-i3
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 INSTALLED_APPS = [
@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     "subtasks",
     "tasks",
 ]
+
 
 SWAGGER_SETTINGS = {"DEFAULT_INFO": "project.urls.app_info"}
 
