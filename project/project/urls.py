@@ -4,8 +4,7 @@ from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 from rest_framework import permissions
 
-
-schema_view = get_schema_view(
+app_info = (
     openapi.Info(
         title="Your API Title",
         default_version="v1",
@@ -14,8 +13,10 @@ schema_view = get_schema_view(
         contact=openapi.Contact(email="contact@yourapi.local"),
         license=openapi.License(name="BSD License"),
     ),
-    public=True,
-    permission_classes=(permissions.AllowAny,),
+)
+
+schema_view = get_schema_view(
+    app_info, public=True, permission_classes=(permissions.AllowAny)
 )
 
 urlpatterns = [
