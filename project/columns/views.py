@@ -14,7 +14,6 @@ from .serializers.updateColumn import UpdateColumn
 @api_view(["POST"])
 @permission_classes([IsAuthenticated])
 def createColumn(request: Request):
-    print(request.data)
     serializer = CreateColumn(
         data=request.data, context={"boardId": request.data["boardId"]}
     )
