@@ -8,7 +8,7 @@ class TaskSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Task
-        fields = ["id", "title", "description"]
+        fields = ["id", "title", "description", "subtasks"]
 
     def update(self, instance, validated_data):
         instance.title = validated_data.get("title", instance.title)
